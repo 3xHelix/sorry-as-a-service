@@ -10,11 +10,6 @@ This tiny API delivers random, overly apologetic, overly polite, and occasionall
 
 Built for humans, humility, and humor. Sorry in advance. 🍁
 
-<p align="center">
-  This project is <strong>sponsored by <a href="https://docs.gitads.dev/docs/getting-started/publishers">GitAds</a></strong>.<br>
-  You can get your GitHub repository sponsored too — <a href="https://docs.gitads.dev/docs/getting-started/publishers">create your account now</a>.
-</p>
-
 ---
 
 ## 🚀 API Usage
