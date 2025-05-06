@@ -1,12 +1,12 @@
 {
-  "name": "no-as-service",
+  "name": "sorry-as-service'eh",
   "version": "1.0.0",
-  "description": "A lightweight API that returns random rejection or no reasons.",
+  "description": "A lightweight API that returns random, polite Canadian-style rejection or 'sorry' reasons, eh.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "hotheadhacker",
+  "author": "hotheadhacker, adapted by 3xHelix",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",

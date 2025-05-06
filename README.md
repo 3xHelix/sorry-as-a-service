@@ -1,14 +1,14 @@
-# ❌ No-as-a-Service
+# ❌ Sorry-as-a-Service'eh
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hotheadhacker/no-as-a-service/main/assets/imgs/naas-with-no-logo-bunny.png" width="800" alt="No-as-a-Service Banner" width="70%"/>
+  <img src="https://raw.githubusercontent.com/3xHelix/sorry-as-a-service/main/assets/imgs/saas-with-no-logo-cannuck.png" width="800" alt="Sorry-as-a-Service'eh Banner" width="70%"/>
 </p>
 
 
-Ever needed a graceful way to say “no”?  
-This tiny API returns random, generic, creative, and sometimes hilarious rejection reasons — perfectly suited for any scenario: personal, professional, student life, dev life, or just because.
+Ever needed a polite way to say “sorry, eh”?
+This tiny API delivers random, overly apologetic, overly polite, and occasionally hilarious Canadian-style rejections — ideal for any situation: awkward social moments, workplace letdowns, ghosting politely, or just because you're Canadian and feel bad about everything.
 
-Built for humans, excuses, and humor.
+Built for humans, humility, and humor. Sorry in advance. 🍁
 
 <!-- GitAds Sponsorship Badge -->
 <p align="center">
@@ -28,25 +28,25 @@ Built for humans, excuses, and humor.
 
 **Base URL**
 ```
-https://naas.isalman.dev/no
+https://naas.sh/eh
 ```
 
-**Method:** `GET`  
+**Method:** `GET`
 **Rate Limit:** `120 requests per minute per IP`
 
 ### 🔄 Example Request
 ```http
-GET /no
+GET /eh
 ```
 
 ### ✅ Example Response
 ```json
 {
-  "reason": "This feels like something Future Me would yell at Present Me for agreeing to."
+  "reason": "Sorry, I’d say yes, but the geese advised against it."
 }
 ```
 
-Use it in apps, bots, landing pages, Slack integrations, rejection letters, or wherever you need a polite (or witty) no.
+Use it in apps, bots, landing pages, Slack integrations, apology notes, or wherever you need a polite (or hilariously Canadian) “sorry, eh?”
 
 ---
 
@@ -56,8 +56,8 @@ Want to run it yourself? It’s lightweight and simple.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/hotheadhacker/no-as-a-service.git
-cd no-as-a-service
+git clone https://github.com/3xHelix/sorry-as-a-service.git
+cd sorry-as-a-service
 ```
 
 ### 2. Install dependencies
@@ -72,12 +72,12 @@ npm start
 
 The API will be live at:
 ```
-http://localhost:3000/no
+http://localhost:4242/eh
 ```
 
 You can also change the port using an environment variable:
 ```bash
-PORT=5000 npm start
+PORT=9090 npm start
 ```
 
 ---
@@ -87,7 +87,7 @@ PORT=5000 npm start
 ```
 no-as-service/
 ├── index.js            # Express API
-├── reasons.json        # 1000+ universal rejection reasons
+├── sorries.json        # 100 universally polite Canadian-style sorry reasons, eh [More to come soon'eh]
 ├── package.json
 └── README.md
 ```
@@ -100,14 +100,14 @@ For reference, here’s the package config:
 
 ```json
 {
-  "name": "no-as-service",
+  "name": "sorry-as-service'eh",
   "version": "1.0.0",
-  "description": "A lightweight API that returns random rejection or no reasons.",
+  "description": "A lightweight API that returns random, polite Canadian-style rejection or 'sorry' reasons, eh.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "hotheadhacker",
+  "author": "hotheadhacker, adapted by 3xHelix",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
@@ -119,11 +119,16 @@ For reference, here’s the package config:
 ---
 
 ## 👤 Author
+##      Credits
+
+This project is a fork of [No-as-a-Service](https://github.com/hotheadhacker/no-as-a-service) by [hotheadhacker](https://github.com/hotheadhacker).
+Big thanks to them for the original concept and API. This version has been transformed into **Sorry-as-a-Service'eh** (SaaS'eh) with a twist of Canadian politeness, eh!
 
 Created with creative stubbornness by [hotheadhacker](https://github.com/hotheadhacker)
+Adapted with Canadian stoner ‘sorry, eh’ willpower and a whole lot of maple syrup by [3xHelix](https://github.com/3xHelix/)
 
 ---
 
 ## 📄 License
 
-MIT — do whatever, just don’t say yes when you should say no.
+MIT — do whatever, just don’t say yes when you should say no'eh.
