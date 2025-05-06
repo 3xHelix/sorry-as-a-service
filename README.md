@@ -75,7 +75,7 @@ PORT=9090 npm start
 ```
 no-as-service/
 ├── index.js            # Express API
-├── sorries.json        # 100 universally polite Canadian-style sorry reasons, eh [More to come soon'eh]
+├── sorries.json        # 600+ universally polite Canadian-style sorry reasons, eh [More to come soon'eh]
 ├── package.json
 └── README.md
 ```
