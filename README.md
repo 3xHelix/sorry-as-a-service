@@ -113,7 +113,7 @@ This project is a fork of [No-as-a-Service](https://github.com/hotheadhacker/no-
 Big thanks to them for the original concept and API. This version has been transformed into **Sorry-as-a-Service'eh** (SaaS'eh) with a twist of Canadian politeness, eh!
 
 Created with creative stubbornness by [hotheadhacker](https://github.com/hotheadhacker)
-Adapted with Canadian stoner ‘sorry, eh’ willpower and a whole lot of maple syrup by [3xHelix](https://github.com/3xHelix/)
+Adapted with Canadian ‘sorry, eh’ willpower and a whole lot of maple syrup by [3xHelix](https://github.com/3xHelix/)
 
 ---
 
