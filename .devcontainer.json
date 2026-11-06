@@ -1,5 +1,5 @@
 {
-  "image": "docker.io/node:22-alpine",
+  "image": "docker.io/node:24-alpine",
   "mounts": [
     "type=bind,source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/root/.ssh"
   ],
@@ -13,7 +13,7 @@
     "ghcr.io/cirolosapio/devcontainers-features/alpine-openssh:0": {},
     "ghcr.io/cirolosapio/devcontainers-features/alpine-git:0": {}
   },
-  "forwardPorts": [3000],
+  "forwardPorts": [4242],
   "shutdownAction": "stopContainer",
   "containerEnv": {
     "NODE_ENV": "development"
